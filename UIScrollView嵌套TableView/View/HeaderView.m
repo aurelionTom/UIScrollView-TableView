@@ -9,6 +9,7 @@
 #import "HeaderView.h"
 #import "Masonry.h"
 #import "GYChangeTextView.h"
+#import "UIView+Category.h"
 
 @interface HeaderView()<GYChangeTextViewDelegate>
 ///应用View
@@ -44,7 +45,7 @@
     
 
     self.tView = [[GYChangeTextView alloc] initWithFrame:CGRectMake(20, 30, 100, 40)];
-    self.tView.backgroundColor = [UIColor colorWithRed:254.0/255.0 green:134.0/255.0 blue:74.0/255.0 alpha:1];
+    self.tView.backgroundColor = [UIColor colorWithRed:244/255.0 green:59/255.0 blue:54/255.0 alpha:1.0];
     [self.applicationNameView addSubview:self.tView];
     [self.tView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.offset(15);
@@ -55,7 +56,9 @@
     self.tView.delegate = self;
     [self.tView animationWithTexts:[NSArray arrayWithObjects:@"这是第1条",@"这是第2条",@"这是第3条", nil]];
 
-    
+//    [self.tView layoutIfNeeded];
+//
+//    [self.tView setGradientLayer:[UIColor colorWithRed:244/255.0 green:59/255.0 blue:54/255.0 alpha:1.0] endColor:[UIColor colorWithRed:254/255.0 green:134/255.0 blue:74/255.0 alpha:1.0]];
     
 }
 

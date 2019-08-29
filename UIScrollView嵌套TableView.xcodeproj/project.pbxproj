@@ -19,6 +19,7 @@
 		04B74F8523165ECD00EED8C9 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B74F7B23165ECD00EED8C9 /* MASViewAttribute.m */; };
 		04B74F8823165EFE00EED8C9 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B74F8723165EFE00EED8C9 /* HeaderView.m */; };
 		04B74F8F23166CBF00EED8C9 /* GYChangeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B74F8D23166CBF00EED8C9 /* GYChangeTextView.m */; };
+		04B74FA5231777A800EED8C9 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B74FA4231777A800EED8C9 /* UIView+Category.m */; };
 		04D9F43E2313CE1D0064009B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9F43D2313CE1D0064009B /* AppDelegate.m */; };
 		04D9F4442313CE1D0064009B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D9F4422313CE1D0064009B /* Main.storyboard */; };
 		04D9F4462313CE1E0064009B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D9F4452313CE1E0064009B /* Assets.xcassets */; };
@@ -97,6 +98,8 @@
 		04B74F8723165EFE00EED8C9 /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 		04B74F8D23166CBF00EED8C9 /* GYChangeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYChangeTextView.m; sourceTree = "<group>"; };
 		04B74F8E23166CBF00EED8C9 /* GYChangeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYChangeTextView.h; sourceTree = "<group>"; };
+		04B74FA3231777A800EED8C9 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		04B74FA4231777A800EED8C9 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		04D9F4392313CE1D0064009B /* UIScrollView嵌套TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIScrollView嵌套TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D9F43C2313CE1D0064009B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04D9F43D2313CE1D0064009B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 				04B74F8723165EFE00EED8C9 /* HeaderView.m */,
 				04B74F8E23166CBF00EED8C9 /* GYChangeTextView.h */,
 				04B74F8D23166CBF00EED8C9 /* GYChangeTextView.m */,
+				04B74FA3231777A800EED8C9 /* UIView+Category.h */,
+				04B74FA4231777A800EED8C9 /* UIView+Category.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -520,6 +525,7 @@
 				04D9F4A123150EC50064009B /* NSBundle+MJRefresh.m in Sources */,
 				04D9F49D23150EC50064009B /* UIScrollView+MJRefresh.m in Sources */,
 				04D9F4B023150EC50064009B /* MJRefreshComponent.m in Sources */,
+				04B74FA5231777A800EED8C9 /* UIView+Category.m in Sources */,
 				04D9F4AC23150EC50064009B /* MJRefreshFooter.m in Sources */,
 				04B74F7D23165ECD00EED8C9 /* ViewController+MASAdditions.m in Sources */,
 				04D9F4A523150EC50064009B /* MJRefreshBackNormalFooter.m in Sources */,
